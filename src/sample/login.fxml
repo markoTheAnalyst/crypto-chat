@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="256.0" prefWidth="236.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <ImageView fitHeight="257.0" fitWidth="242.0" layoutX="-2.0">
+         <image>
+            <Image url="@/simple-flat-blue-backgroundc79-d452-452d-abc2-29370bed8ef9.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tbUsername" layoutX="54.0" layoutY="103.0" promptText="Username" />
+      <PasswordField fx:id="tbPass" layoutX="54.0" layoutY="163.0" promptText="Password" />
+      <JFXButton fx:id="logBtn" layoutX="67.0" layoutY="206.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #e0e0e0; -fx-background-radius: 90;" text="Login">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></JFXButton>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="24.0" layoutY="106.0">
+         <image>
+            <Image url="/icons8-user-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="24.0" layoutY="166.0">
+         <image>
+            <Image url="@/icons8-key-30.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="74.0" layoutX="83.0" layoutY="14.0">
+         <image>
+            <Image url="@/icons8-user-96.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
